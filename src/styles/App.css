@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+
+html, 
+body {
+  color: white;
+  background-color: #04293A;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1em;
+}
+
+h1 {
+  color: #0E185F;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.to-do-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.logo-container {
+  width: 100%;
+  margin: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.to-do-list-logo {
+  width: 400em;
+  height: auto;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+/*To do list*/
+
+.main-list {
+  font-size: 15em;
+  width: 550px;
+  min-height: 450px;
+  background-color: #00C897;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 26px;
+
+}

@@ -1,0 +1,38 @@
+.tarea-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+}
+.tarea-input {
+    height: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+    font-size: 1em;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 15px 0 0 15px;
+    border: 2.5px solid #0F2C67;
+    outline: none;
+    margin: 2px 0 2px 2px;
+    text-transform: capitalize;
+}
+/*BOtob agregar tarea*/
+
+.tarea-boton {
+    height: 3em;
+    padding: 16px;
+    margin: 2px 2px 2px 0;
+    font-size: 1em;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    outline: none;
+    background: #0F2C67;
+    color: #fff;
+    text-transform: capitalize;
+}
