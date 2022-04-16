@@ -11,8 +11,18 @@
     border-radius: 15px;
     cursor: pointer;
 }
+.tarea-container:nth-child(3n + 1){
+    background-color: #F0FFC2
+}
+.tarea-container:nth-child(3n + 2){
+    background-color: #FAEEE7
+}
+.tarea-container:nth-child(3n + 3){
+    background-color: #CAF0F8
+}
+
 .tarea-container.completada {
-    background-color: #F0D9FF;
+    background-color: #F5F5F5;
     text-decoration: line-through;
     color: black;
     font-weight: 700;
@@ -27,6 +37,23 @@
     overflow-wrap: anywhere;
     color: #21325E;
     font-weight: bold;
+}
+.tarea-contenedor-check {
+    width: 25px;
+    height: 25px;
+    color: #21325E;
+    margin-right: 0.5rem;
+    font-size: 5em;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tarea-contenedor-check:hover {    
+    color: #074dfe;    
+}
+.tarea-contenedor-check.completada {    
+    color: #01cc15;    
 }
 
 .tarea-icono {
